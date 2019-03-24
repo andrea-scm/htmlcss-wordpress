@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  max-width: 100%;
 }
 
 body{
@@ -50,4 +49,35 @@ header > i{
 #left{
   font-size: 30px;
   transform: translate(-140%, -250%);
+}
+
+nav {
+  position: absolute;
+  bottom: 0;
+  background-color: #092303;
+  transform: translate(-9.6px, 120%);
+  width: calc(100% + 19.43px);
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav > ul > li{
+  display: inline-block;
+  font-size: 22px;
+  line-height: 30px;
+  color: white;
+  padding: 0 20px;
+  border-right: 1px solid white;
+}
+
+ul > li:last-child{
+  border-right: 0;
+}
+
+.select_box{
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  background: transparent;
+  font-size: 18px;
 }
