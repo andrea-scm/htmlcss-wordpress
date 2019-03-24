@@ -102,21 +102,14 @@ nav > ul > li > a:hover{
 
 .column_padding{
   padding: 10px 20px;
-  border: 2px solid white;
   margin: 10px 0;
 }
 
 /* Inizio colonna sinistra */
 .left_column{
   float: left;
-  width: 20%;
+  width: 18%;
   background-color: white;
-}
-
-.left_column > ul > li{
-  list-style-type: none;
-  padding: 10px 20px;
-  margin: 0;
 }
 
 .left_column > i{
@@ -128,20 +121,9 @@ nav > ul > li > a:hover{
   font-size: 18px;
   padding: 0 30px;
   padding-bottom: 10px;
+  color: #092303;
 }
 
-.left_column > ul > li > a{
-  color: green;
-  text-decoration: none;
-}
-
-.left_column > ul > li > a:hover{
-  text-decoration: underline;
-}
-
-.left_column > ul > li > a:visited{
-  color: purple;
-}
 /* Fine colonna sinistra */
 
 /*Inizio colonna centrale*/
@@ -150,7 +132,7 @@ nav > ul > li > a:hover{
   width: 50%;
   position: absolute;
   top: 0;
-  left: 23%;
+  left: 21%;
   color: black;
   background-color: white;
 }
@@ -184,5 +166,54 @@ nav > ul > li > a:hover{
 /* Inizio colonna destra */
 .right_column{
   float: right;
-  width: 25%;
+  width: 27%;
+}
+
+.text_widget{
+  margin-bottom: 50px;
+  background-color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+.text_widget > h1{
+  font-size: 20px;
+  padding: 10px 5px;
+  color: #092303;
+}
+
+.text_widget > p{
+  font-size: 15px;
+  padding: 10px 5px;
+}
+
+.recent_post_widget{
+  background-color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+.recent_post_widget > h1{
+  font-size: 20px;
+  padding: 10px 5px;
+  color: #092303;
+}
+
+/* Fine colonna destra  */
+
+/* Link colonne laterali */
+.sides_column_link > li{
+  list-style-type: none;
+  padding: 10px 20px;
+  margin: 0;
+}
+.sides_column_link > li > a{
+  color: green;
+  text-decoration: none;
+}
+.sides_column_link > li > a:hover{
+  text-decoration: underline;
+}
+.sides_column_link > li > a:visited{
+  color: purple;
 }
