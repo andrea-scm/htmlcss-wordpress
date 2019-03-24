@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+body{
+  background-image: url("img/texture.jpg");
+}
+
+header{
+  background-image: url("img/forest.jpg");
+  background-size: cover;
+  background-position: bottom;
+  border: 10px solid white;
+  width: 90%;
+  margin: 50px calc(100% - 95%);
+  height: 450px;
+  position: relative;
+}
+
+header > div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  border: 5px solid white;
+  padding: 15px 40px;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 20px;
+}
+
+header > i{
+  position: absolute;
+  font-size: 50px;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -190%);
+}
+
+#right{
+  transform: translate(35%, -250%);
+  font-size: 30px;
+}
+
+#left{
+  font-size: 30px;
+  transform: translate(-140%, -250%);
+}
