@@ -51,6 +51,7 @@ header > i{
   transform: translate(-140%, -250%);
 }
 
+/* Inizio barra navigazione */
 nav {
   position: absolute;
   bottom: 0;
@@ -70,7 +71,7 @@ nav > ul > li{
   border-right: 1px solid white;
 }
 
-ul > li:last-child{
+nav > ul > li:last-child{
   border-right: 0;
 }
 
@@ -80,4 +81,108 @@ ul > li:last-child{
   border-radius: 20px;
   background: transparent;
   font-size: 18px;
+}
+
+nav > ul > li > a{
+  color: white;
+  text-decoration: none;
+}
+
+nav > ul > li > a:hover{
+  text-decoration: underline;
+}
+/* Fine barra navigazione */
+
+/* Container colonne */
+.container{
+  width: 90%;
+  margin: 70px calc(100% - 95%);
+  position: relative;
+}
+
+.column_padding{
+  padding: 10px 20px;
+  border: 2px solid white;
+  margin: 10px 0;
+}
+
+/* Inizio colonna sinistra */
+.left_column{
+  float: left;
+  width: 20%;
+  background-color: white;
+}
+
+.left_column > ul > li{
+  list-style-type: none;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.left_column > i{
+  color: orange;
+  transform: translate(90%, 120%);
+}
+
+.left_column > h1{
+  font-size: 18px;
+  padding: 0 30px;
+  padding-bottom: 10px;
+}
+
+.left_column > ul > li > a{
+  color: green;
+  text-decoration: none;
+}
+
+.left_column > ul > li > a:hover{
+  text-decoration: underline;
+}
+
+.left_column > ul > li > a:visited{
+  color: purple;
+}
+/* Fine colonna sinistra */
+
+/*Inizio colonna centrale*/
+.middle_column{
+  float: left;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 23%;
+  color: black;
+  background-color: white;
+}
+
+.middle_column > h1{
+  color: #092303;
+  padding: 10px 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.middle_column > p{
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.middle_column > p > a{
+  color: green;
+  text-decoration: none;
+}
+
+.middle_column > p > a:hover{
+  text-decoration: underline;
+}
+
+.middle_column > p > a:visited{
+  color: purple;
+}
+/* Fine colonna centrale */
+
+/* Inizio colonna destra */
+.right_column{
+  float: right;
+  width: 25%;
 }
