@@ -59,16 +59,14 @@ nav {
   transform: translate(-9.6px, 120%);
   width: calc(100% + 19.43px);
   text-align: center;
-  padding: 10px 0;
 }
 
 nav > ul > li{
   display: inline-block;
   font-size: 22px;
-  line-height: 30px;
   color: white;
-  padding: 0 20px;
-  border-right: 1px solid white;
+  padding: 10px 20px;
+  border-right: 3px solid black;
 }
 
 nav > ul > li:last-child{
@@ -94,7 +92,7 @@ nav > ul > li > a:hover{
 /* Fine barra navigazione */
 
 /* Container colonne */
-.container{
+.columns_container{
   width: 90%;
   margin: 70px calc(100% - 95%);
   position: relative;
